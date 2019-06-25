@@ -14,7 +14,7 @@ public class MeetingController {
   @GetMapping("/meet")
   public String meeting() {
     try {
-      log.info("meeting...");
+      log.info("meeting...test");
       Thread.sleep(r.nextInt(500 - 20 + 1) + 20);
     } catch (InterruptedException e) {
     }
